@@ -1,0 +1,118 @@
+<svg width="100%" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE1EC">
+        <animate attributeName="stop-color" values="#FFE1EC;#E8D5F2;#FFE1EC" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#F6C9DE">
+        <animate attributeName="stop-color" values="#F6C9DE;#C9A7EB;#F6C9DE" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#E8D5F2">
+        <animate attributeName="stop-color" values="#E8D5F2;#FFE1EC;#E8D5F2" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A7EB" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F7CAD0" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="sparkleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="280" fill="url(#bgGrad)"/>
+
+  <!-- Soft cloud waves -->
+  <path d="M0,190 C150,150 300,220 500,190 C700,160 850,210 1000,180 L1000,280 L0,280 Z" fill="url(#waveGrad1)">
+    <animate attributeName="d"
+      values="M0,190 C150,150 300,220 500,190 C700,160 850,210 1000,180 L1000,280 L0,280 Z;
+              M0,200 C150,230 300,160 500,200 C700,230 850,170 1000,200 L1000,280 L0,280 Z;
+              M0,190 C150,150 300,220 500,190 C700,160 850,210 1000,180 L1000,280 L0,280 Z"
+      dur="10s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0,220 C200,190 350,250 550,220 C750,190 900,240 1000,215 L1000,280 L0,280 Z" fill="url(#waveGrad2)">
+    <animate attributeName="d"
+      values="M0,220 C200,190 350,250 550,220 C750,190 900,240 1000,215 L1000,280 L0,280 Z;
+              M0,230 C200,255 350,200 550,235 C750,260 900,205 1000,235 L1000,280 L0,280 Z;
+              M0,220 C200,190 350,250 550,220 C750,190 900,240 1000,215 L1000,280 L0,280 Z"
+      dur="12s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Faint coding / AI / cloud glyphs in background -->
+  <g opacity="0.16" fill="#6B4B8A" font-family="Consolas, monospace" font-weight="700">
+    <text x="55" y="70" font-size="34">&lt;/&gt;</text>
+    <text x="880" y="60" font-size="30">AI</text>
+    <text x="900" y="230" font-size="34">☁</text>
+    <text x="60" y="235" font-size="28">{ }</text>
+  </g>
+
+  <!-- Sparkles -->
+  <g>
+    <circle cx="120" cy="55" r="10" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="95" r="7" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="45" r="5" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="115" r="5" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="40" r="6" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="150" r="4" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="940" cy="160" r="6" fill="url(#sparkleGlow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Name -->
+  <text x="500" y="128" text-anchor="middle" font-family="'Segoe UI', 'Poppins', sans-serif"
+        font-size="52" font-weight="700" fill="#5B3A75" filter="url(#softGlow)">
+    Nidhi Chougule
+    <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0s" fill="freeze"/>
+  </text>
+
+  <!-- Tagline -->
+  <text x="500" y="168" text-anchor="middle" font-family="'Segoe UI', 'Poppins', sans-serif"
+        font-size="19" font-weight="500" fill="#7A5C93" letter-spacing="0.5">
+    Building intelligent systems with creativity &amp; code
+    <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.4s" fill="freeze"/>
+  </text>
+
+  <!-- Subtext -->
+  <text x="500" y="196" text-anchor="middle" font-family="'Segoe UI', 'Poppins', sans-serif"
+        font-size="14" fill="#8E72A3" letter-spacing="0.4">
+    Electronics &amp; Computer Engineering · Full-Stack · AI/ML · Cloud
+    <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- Thin decorative underline -->
+  <line x1="400" y1="212" x2="600" y2="212" stroke="#C9A7EB" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="x1" values="500;400;500" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="500;600;500" dur="6s" repeatCount="indefinite"/>
+  </line>
+</svg>
