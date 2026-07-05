@@ -332,12 +332,13 @@ I'm currently open to **SDE / Full-Stack / AI Engineer internship** opportunitie
 <img src="https://img.shields.io/badge/GitHub-F7CAD0?style=for-the-badge&logo=github&logoColor=white&labelColor=C9A7EB"/>
 </a>
 
-<br/><br/>
+<div align="center">
+
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=nidhichougule&label=Profile%20Views&color=C9A7EB&style=for-the-badge" alt="Profile Views" />
 
 </div>
-
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A7EB,100:F7CAD0&height=100&section=footer"/>
 </div>
