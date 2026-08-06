@@ -270,7 +270,7 @@ Simulates FCFS, SJF, Priority, and Round Robin scheduling algorithms with intera
 </div>
 
 <div align="center">
-  Just the beginning. Many more shades to come.
+  Many more shades to come.
 </div>
 
 <br/>
@@ -320,17 +320,7 @@ Whether you're a **recruiter** scanning for your next intern, a **collaborator**
 
 I'm currently open to **SDE / Full-Stack / AI Engineer internship** opportunities.
 
-<div align="center">
 
-<a href="https://www.linkedin.com/in/nidhi-chougule16/">
-<img src="https://img.shields.io/badge/LinkedIn-F7CAD0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=C9A7EB"/>
-</a>
-<a href="mailto:nidhichougule20@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-F7CAD0?style=for-the-badge&logo=gmail&logoColor=white&labelColor=C9A7EB"/>
-</a>
-<a href="https://github.com/nidhichougule">
-<img src="https://img.shields.io/badge/GitHub-F7CAD0?style=for-the-badge&logo=github&logoColor=white&labelColor=C9A7EB"/>
-</a>
 
 <div align="center">
 
