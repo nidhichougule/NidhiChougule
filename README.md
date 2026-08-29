@@ -21,17 +21,18 @@
 
 <br/>
 <div align="center">
-
-<a href="https://www.linkedin.com/in/nidhi-chougule16/">
-<img src="https://img.shields.io/badge/LinkedIn-F7CAD0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=C9A7EB"/>
+<a href="https://nidhichougule.github.io/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-F7CAD0?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=C9A7EB"/>
+</a>
+<a href="https://www.linkedin.com/in/nidhi-chougule16/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-F7CAD0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=C9A7EB"/>
 </a>
 <a href="mailto:nidhichougule20@gmail.com">
-<img src="https://img.shields.io/badge/Email-F7CAD0?style=for-the-badge&logo=gmail&logoColor=white&labelColor=C9A7EB"/>
+  <img src="https://img.shields.io/badge/Email-F7CAD0?style=for-the-badge&logo=gmail&logoColor=white&labelColor=C9A7EB"/>
 </a>
-<a href="https://github.com/nidhichougule">
-<img src="https://img.shields.io/badge/GitHub-F7CAD0?style=for-the-badge&logo=github&logoColor=white&labelColor=C9A7EB"/>
+<a href="https://leetcode.com/u/nidhichougule/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-F7CAD0?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=C9A7EB"/>
 </a>
-
 </div>
 
 <br/>
@@ -279,26 +280,7 @@ Simulates FCFS, SJF, Priority, and Round Robin scheduling algorithms with intera
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="4px">
 
-## Currently Learning
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/System%20Design-FFF0F5?style=for-the-badge&labelColor=C9A7EB&color=F7CAD0"/>
-<img src="https://img.shields.io/badge/Cloud%20Architecture-FFF0F5?style=for-the-badge&labelColor=C9A7EB&color=F7CAD0"/>
-<img src="https://img.shields.io/badge/Advanced%20ML-FFF0F5?style=for-the-badge&labelColor=C9A7EB&color=F7CAD0"/>
-<img src="https://img.shields.io/badge/DSA-FFF0F5?style=for-the-badge&labelColor=C9A7EB&color=F7CAD0"/>
-
-</div>
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="4px">
-
-## Coding Profile
-
-<br/>
-<a href="https://leetcode.com/u/nidhichougule/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-F7CAD0?style=flat-square&logo=leetcode&logoColor=white&labelColor=C9A7EB"/>
-</a>
 <br/>
 <br/>
 
@@ -309,7 +291,7 @@ Simulates FCFS, SJF, Priority, and Round Robin scheduling algorithms with intera
 When I'm away from my keyboard, you'll probably find me sketching portraits, soldering electronics, crocheting, or exploring new creative ideas.
 
 🎨 **Fun fact:** I debug code, sketch portraits, and solder circuits with the same patience.
-<br/>
+
 <br/>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="4px">
